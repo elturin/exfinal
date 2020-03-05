@@ -252,6 +252,9 @@
                     <tr>\
                         <td colspan="2">' + (feature.properties['inspection'] !== null ? Autolinker.link(feature.properties['inspection'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
                     </tr>\
+					                    <tr>\
+                        <td colspan="2"> <img src="buzon/'+feature.properties['facilityid']+'.jpg" height="100" width="100" />'+ '</td>\
+                    </tr>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['weather'] !== null ? Autolinker.link(feature.properties['weather'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
                     </tr>\
